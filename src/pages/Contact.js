@@ -5,7 +5,7 @@ import locationPic from '../Location.png';
 import { useEffect } from "react";
 function Contact() {
     useEffect(() => {
-        document.title = "Contact | Matthew Linerode";
+        document.title = "Matthew Linerode | Contact";
     }, []);
   return (
     <div className="Contact">
