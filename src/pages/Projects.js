@@ -1,6 +1,10 @@
 import '../App.css';
+import { useEffect } from "react";
 
 function Projects() {
+    useEffect(() => {
+    document.title = "Projects | Matthew Linerode";
+  }, []);
   return (
     <div className="Projects">
       <header className="App-header">

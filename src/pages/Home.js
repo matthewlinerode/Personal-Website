@@ -1,7 +1,11 @@
 import pic from '../SeniorPhoto.jpg';
 import '../App.css';
+import { useEffect } from "react";
 
 function Home() {
+    useEffect(() => {
+        document.title = "Home | Matthew Linerode";
+    }, []);
   return (
     <div className="Home">
       <header className="App-header">

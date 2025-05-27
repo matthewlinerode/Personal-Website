@@ -2,7 +2,11 @@ import '../App.css';
 import gmailPic from '../Gmail.png';
 import linkedinPic from '../Linkedin.png';
 import locationPic from '../Location.png';
+import { useEffect } from "react";
 function Contact() {
+    useEffect(() => {
+        document.title = "Contact | Matthew Linerode";
+    }, []);
   return (
     <div className="Contact">
       <header className="Contact-header p-8">
