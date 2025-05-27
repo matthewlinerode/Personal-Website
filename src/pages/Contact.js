@@ -11,7 +11,7 @@ function Contact() {
     <div className="Contact">
       <header className="Contact-header p-8">
         <p className="text-left font-semibold text-4xl justify-center font-[georgia]">
-            Feel free to reach out to me with any of the following methods:
+            Contact Me!
           </p>
         <div className="">
             <div className="grid grid-cols-3 justify-items-center">

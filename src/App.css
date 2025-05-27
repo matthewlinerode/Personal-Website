@@ -29,3 +29,22 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.Projects-header {
+  background-color:#1c2e5c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  color: white;
+}
+
+.Project-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 800px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
