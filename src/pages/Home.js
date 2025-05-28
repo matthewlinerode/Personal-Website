@@ -1,11 +1,12 @@
-import pic from '../SeniorPhoto.jpg';
+import pic from '../images/SeniorPhoto.jpg';
+import githubLogo from '../images/github.png';
 import '../App.css';
 import { useEffect } from "react";
 
 function Home() {
-    useEffect(() => {
-        document.title = "Matthew Linerode | Home";
-    }, []);
+  useEffect(() => {
+    document.title = "Matthew Linerode | Home";
+  }, []);
   return (
     <div className="Home">
       <header className="App-header">
@@ -27,6 +28,11 @@ function Home() {
           <p className="text-left text-m p-2 font-serif">
             Please take a look at the projects tab to see some of the projects that I have worked on!
           </p>
+          <div>
+            <a href="https://github.com/matthewlinerode">
+              <img src={githubLogo} className="w-16 h-16" alt="GitHub Logo" />
+            </a>
+          </div>
         </div>
       </div>
       <hr className="w-full my-4 border-gray-300" />

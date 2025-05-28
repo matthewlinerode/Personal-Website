@@ -1,7 +1,7 @@
 import '../App.css';
-import gmailPic from '../Gmail.png';
-import linkedinPic from '../Linkedin.png';
-import locationPic from '../Location.png';
+import gmailPic from '../images/Gmail.png';
+import linkedinPic from '../images/Linkedin.png';
+import locationPic from '../images/Location.png';
 import { useEffect } from "react";
 function Contact() {
     useEffect(() => {
