@@ -14,7 +14,7 @@ function Home() {
         <img src={pic} className="rounded-full" alt="Me!" />
         <div className="profile-text max-w-xl">
           <p className="text-left font-semibold text-3xl p-2 font-[georgia]">
-            Hello, my name is Matthew Linerode!
+            Hi, my name is Matthew Linerode!
           </p>
           <p className="text-left text-m p-2 font-serif">
             I recently graduated from Rose-Hulman Institute of Technology with a bachelor's degree in Computer Science and Software Engineering.
