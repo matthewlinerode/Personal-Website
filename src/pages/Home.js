@@ -10,7 +10,7 @@ function Home() {
   return (
     <div className="Home">
       <header className="App-header">
-      <div className="profile-container flex items-start space-x-6">
+      <div className="profile-container flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-6 px-4">
         <img src={pic} className="rounded-full" alt="Me!" />
         <div className="profile-text max-w-xl">
           <p className="text-left font-semibold text-3xl p-2 font-[georgia]">

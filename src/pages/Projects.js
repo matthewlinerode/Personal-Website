@@ -19,7 +19,7 @@ function Projects() {
   return (
     <div className="Projects">
       <header className="Projects-header p-8">
-        <div className="Project-card text-black">
+        <div className="bg-white rounded-lg p-4 md:p-6 m-2 w-full max-w-[800px] shadow-md mx-auto text-black">
             <p className="font-semibold text-4xl p-4">
                 Image Recognition Project
             </p>
@@ -33,7 +33,7 @@ function Projects() {
                 Above is the confusion matrix for the best performing model on the test set, consisting of 1,000 images per class. 
             </p>
         </div>
-        <div className="Project-card text-black">
+        <div className="bg-white rounded-lg p-4 md:p-6 m-2 w-full max-w-[800px] shadow-md mx-auto text-black">
             <p className="font-semibold text-4xl p-4">
                 Senior Capstone Project
             </p>
@@ -47,7 +47,7 @@ function Projects() {
                 Above is the workflow for Recipe 3, which detects if all test tubes in the image have their caps on or not.
             </p>
         </div>
-        <div className="Project-card text-black">
+        <div className="bg-white rounded-lg p-4 md:p-6 m-2 w-full max-w-[800px] shadow-md mx-auto text-black">
             <p className="font-semibold text-4xl p-4">
                 Database Systems Project
             </p>
@@ -58,7 +58,7 @@ function Projects() {
                 <img src={erDiagram} className="rounded-lg align-middle" alt="ER Diagram" />
             </div>
         </div>
-        <div className="Project-card text-black">
+        <div className="bg-white rounded-lg p-4 md:p-6 m-2 w-full max-w-[800px] shadow-md mx-auto text-black">
             <p className="font-semibold text-4xl p-4">
                 Personal Website
             </p>
@@ -74,7 +74,7 @@ function Projects() {
                 </div>
             </div>
         </div>
-        <div className="Project-card text-black">
+        <div className="bg-white rounded-lg p-4 md:p-6 m-2 w-full max-w-[800px] shadow-md mx-auto text-black">
             <p className="font-semibold text-4xl p-4">
                 Software Quality Assurance Project
             </p>
@@ -99,7 +99,7 @@ function Projects() {
                 </div>
             </div>
         </div>
-        <div className="Project-card text-black">
+        <div className="bg-white rounded-lg p-4 md:p-6 m-2 w-full max-w-[800px] shadow-md mx-auto text-black">
             <p className="font-semibold text-4xl p-4">
                 Software Construction and Evolution Project
             </p>

@@ -29,9 +29,9 @@ function Contact() {
                 <a href="https://mail.google.com/mail/u/0/?fs=1&to=matthewlinerode2@gmail.com&tf=cm" class="Link font-serif">Email</a>  
                 <a href="https://www.linkedin.com/in/matthew-linerode-6763b5274/" class="Link font-serif">LinkedIn</a> 
                 <p className="font-serif">Location</p>
-                <p className="font-[helvetica]">matthewlinerode2@gmail.com</p>
-                <p className="font-[helvetica]">Matthew Linerode</p>
-                <p className="font-[helvetica]">Naperville, IL</p>
+                <p className="font-[helvetica] text-xs md:text-base">matthewlinerode2</p>
+                <p className="font-[helvetica] text-xs md:text-base">Matthew Linerode</p>
+                <p className="font-[helvetica] text-xs md:text-base">Naperville, IL</p>
             </div>
         </div>
       <hr className="w-full my-4 border-gray-300" />
