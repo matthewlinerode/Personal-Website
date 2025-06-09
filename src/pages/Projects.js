@@ -11,6 +11,8 @@ import cucumberImg from '../images/cucumber.svg';
 import pitestImg from '../images/pitest.png';
 import gradleImg from '../images/gradle.png';
 import codeSmells from '../images/codeSmells.PNG';
+import linuxImg from '../images/linux.png';
+import pthreadImg from '../images/pthread.png';
 
 function Projects() {
     useEffect(() => {
@@ -112,6 +114,18 @@ function Projects() {
             <p className="text-middle p-2 font-serif">
                 Above is the list of code smells that we were looking for in our project, grouping them with related smells.
             </p>
+        </div>
+        <div className="bg-white rounded-lg p-4 md:p-6 m-2 w-full max-w-[800px] shadow-md mx-auto text-black">
+            <p className="font-semibold text-4xl p-4">
+                Operating Systems Project
+            </p>
+            <p className="text-justify text-m p-2 font-serif">
+                My team and I were tasked with creating a custom pythreads library in Linux, which is a user-level threading library that allows for the creation, exiting, and joining of threads. We chose to have each thread have their own separate page tables, creatomg a new phsyical mapping for its Trampoline, Trapframe, and stack page. To allow for the switching between the main process and the spawned threads, we utilized context-switching. We made it so that upon completion of a thread, the exit method must be called so that it enters the zombie state, then join must be called to emulate the XV6 implementation of wait.      
+            </p>
+            <div className="grid grid-cols-2 justify-items-center">
+                <img src={linuxImg} className="scale-50 align-middle" alt="Linux Logo" />
+                <img src={pthreadImg} className="scale-50 align-middle" alt="Pthread Logo" />
+            </div>
         </div>
       </header>
     </div>
