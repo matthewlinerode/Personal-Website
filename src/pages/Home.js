@@ -1,4 +1,4 @@
-import pic from '../images/SeniorPhoto.jpg';
+import pic from '../images/WebsitePhoto.jpg';
 import githubLogo from '../images/github.png';
 import '../App.css';
 import { useEffect } from "react";
@@ -11,7 +11,7 @@ function Home() {
     <div className="Home">
       <header className="App-header">
       <div className="profile-container flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-6 px-4">
-        <img src={pic} className="rounded-full" alt="Me!" />
+        <img src={pic} className="scale" alt="Me!" />
         <div className="profile-text max-w-xl">
           <p className="text-left font-semibold text-3xl p-2 font-[georgia]">
             Hi, my name is Matthew Linerode!
